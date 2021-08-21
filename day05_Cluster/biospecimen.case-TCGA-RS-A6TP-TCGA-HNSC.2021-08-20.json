@@ -1,0 +1,362 @@
+[{
+  "case_id": "5436b002-4e4f-4d0f-9566-c0ef4d2d1854", 
+  "samples": [
+    {
+      "sample_type_id": "01", 
+      "sample_id": "5d166131-946a-46de-b446-ea35d8b0e1a4", 
+      "submitter_id": "TCGA-RS-A6TP-01Z", 
+      "sample_type": "Primary Tumor", 
+      "created_datetime": "2018-05-17T12:19:46.292188-05:00", 
+      "oct_embedded": "No", 
+      "updated_datetime": "2018-11-15T21:10:03.529893-06:00", 
+      "days_to_sample_procurement": 0, 
+      "state": "released", 
+      "is_ffpe": true, 
+      "tissue_type": "Not Reported", 
+      "preservation_method": "FFPE", 
+      "portions": [
+        {
+          "portion_id": "caa39093-155d-5c06-9b7e-9282101d89ae", 
+          "slides": [
+            {
+              "updated_datetime": "2018-08-23T19:24:29.874737-05:00", 
+              "submitter_id": "TCGA-RS-A6TP-01Z-00-DX1", 
+              "section_location": "Not Reported", 
+              "state": "released", 
+              "slide_id": "3338e08a-29c1-4a92-877c-ba317f7db510", 
+              "created_datetime": "2018-05-17T13:45:28.079671-05:00"
+            }
+          ]
+        }
+      ]
+    }, 
+    {
+      "sample_type_id": "10", 
+      "tumor_descriptor": null, 
+      "sample_id": "281693cb-2d6f-4a42-af26-d807ea67a191", 
+      "sample_type": "Blood Derived Normal", 
+      "created_datetime": null, 
+      "tumor_code": null, 
+      "time_between_excision_and_freezing": null, 
+      "composition": null, 
+      "updated_datetime": "2018-11-15T21:38:54.195821-06:00", 
+      "days_to_collection": 117, 
+      "state": "released", 
+      "initial_weight": null, 
+      "preservation_method": null, 
+      "portions": [
+        {
+          "analytes": [
+            {
+              "amount": null, 
+              "aliquots": [
+                {
+                  "amount": null, 
+                  "aliquot_id": "dee93deb-7249-4f7a-a59b-d4fa5acc13e6", 
+                  "source_center": "23", 
+                  "analyte_type": null, 
+                  "updated_datetime": "2018-11-27T10:01:29.779572-06:00", 
+                  "submitter_id": "TCGA-RS-A6TP-10A-01D-A34M-08", 
+                  "concentration": 0.07, 
+                  "state": "released", 
+                  "created_datetime": null, 
+                  "analyte_type_id": null
+                }, 
+                {
+                  "amount": null, 
+                  "aliquot_id": "e9e040c9-19f4-439f-b8a1-92c2c716fe6e", 
+                  "source_center": "23", 
+                  "analyte_type": null, 
+                  "updated_datetime": "2018-11-27T10:01:29.779572-06:00", 
+                  "submitter_id": "TCGA-RS-A6TP-10A-01D-A34L-01", 
+                  "concentration": 0.15, 
+                  "state": "released", 
+                  "created_datetime": null, 
+                  "analyte_type_id": null
+                }
+              ], 
+              "submitter_id": "TCGA-RS-A6TP-10A-01D", 
+              "annotations": [
+                {
+                  "annotation_id": "6e8a012a-5de2-511f-9ea0-f40a118f4300", 
+                  "notes": "DNA analyte UUID: 8304F61F-C217-4B9F-BA64-6486DA54E6C8 was involved in an extraction protocol deviation wherein an additional column purification step was used as a means of buffer exchange on the column-eluted analyte.", 
+                  "updated_datetime": "2018-08-23T16:36:27.780612-05:00", 
+                  "submitter_id": "18749", 
+                  "state": "released", 
+                  "classification": "Observation", 
+                  "category": "General", 
+                  "created_datetime": "2013-12-03T00:00:00", 
+                  "status": "Approved"
+                }
+              ], 
+              "concentration": 0.15, 
+              "created_datetime": null, 
+              "analyte_type_id": "D", 
+              "analyte_id": "8304f61f-c217-4b9f-ba64-6486da54e6c8", 
+              "analyte_type": "DNA", 
+              "well_number": null, 
+              "updated_datetime": "2018-09-06T20:07:42.373854-05:00", 
+              "spectrophotometer_method": "PicoGreen", 
+              "state": "released", 
+              "a260_a280_ratio": null
+            }, 
+            {
+              "amount": null, 
+              "aliquots": [
+                {
+                  "amount": null, 
+                  "aliquot_id": "eb73bd00-aad0-46d2-92c6-8759748a8a33", 
+                  "source_center": "23", 
+                  "analyte_type": null, 
+                  "updated_datetime": "2018-11-27T10:01:29.779572-06:00", 
+                  "submitter_id": "TCGA-RS-A6TP-10A-01W-A43T-08", 
+                  "concentration": 0.5, 
+                  "state": "released", 
+                  "created_datetime": null, 
+                  "analyte_type_id": null
+                }
+              ], 
+              "submitter_id": "TCGA-RS-A6TP-10A-01W", 
+              "concentration": null, 
+              "created_datetime": null, 
+              "analyte_type_id": "W", 
+              "analyte_id": "5a65ecad-561b-4b02-afbc-c336d7e35feb", 
+              "analyte_type": "Repli-G (Qiagen) DNA", 
+              "well_number": null, 
+              "updated_datetime": "2018-09-06T20:07:42.373854-05:00", 
+              "spectrophotometer_method": null, 
+              "state": "released", 
+              "a260_a280_ratio": null
+            }
+          ], 
+          "portion_id": "a4d77eb2-4719-4b31-860b-b7efc0ba779b", 
+          "updated_datetime": "2018-09-06T20:07:42.373854-05:00", 
+          "submitter_id": "TCGA-RS-A6TP-10A-01", 
+          "creation_datetime": 1373587200, 
+          "weight": null, 
+          "state": "released", 
+          "portion_number": "01", 
+          "is_ffpe": false, 
+          "created_datetime": null
+        }
+      ], 
+      "intermediate_dimension": null, 
+      "time_between_clamping_and_freezing": null, 
+      "freezing_method": null, 
+      "pathology_report_uuid": null, 
+      "submitter_id": "TCGA-RS-A6TP-10A", 
+      "tumor_code_id": null, 
+      "shortest_dimension": null, 
+      "oct_embedded": "false", 
+      "days_to_sample_procurement": null, 
+      "longest_dimension": null, 
+      "current_weight": null, 
+      "is_ffpe": false, 
+      "tissue_type": "Not Reported"
+    }, 
+    {
+      "sample_type_id": "01", 
+      "tumor_descriptor": null, 
+      "sample_id": "1ce08042-34c7-450e-b1f5-8cdf9bfc5a77", 
+      "sample_type": "Primary Tumor", 
+      "created_datetime": null, 
+      "tumor_code": null, 
+      "time_between_excision_and_freezing": null, 
+      "composition": null, 
+      "updated_datetime": "2018-11-15T21:38:54.195821-06:00", 
+      "days_to_collection": 117, 
+      "state": "released", 
+      "initial_weight": 400.0, 
+      "preservation_method": null, 
+      "portions": [
+        {
+          "analytes": [
+            {
+              "amount": null, 
+              "aliquots": [
+                {
+                  "amount": null, 
+                  "aliquot_id": "0d1305d9-f101-441a-a48a-51c68b47defd", 
+                  "source_center": "23", 
+                  "analyte_type": null, 
+                  "updated_datetime": "2018-11-27T09:46:29.784386-06:00", 
+                  "submitter_id": "TCGA-RS-A6TP-01A-12W-A43S-08", 
+                  "concentration": 0.5, 
+                  "state": "released", 
+                  "created_datetime": null, 
+                  "analyte_type_id": null
+                }
+              ], 
+              "submitter_id": "TCGA-RS-A6TP-01A-12W", 
+              "concentration": null, 
+              "created_datetime": null, 
+              "analyte_type_id": "W", 
+              "analyte_id": "eca3e186-a203-409c-9db4-fa280807509c", 
+              "analyte_type": "Repli-G (Qiagen) DNA", 
+              "well_number": null, 
+              "updated_datetime": "2018-09-06T20:07:42.373854-05:00", 
+              "spectrophotometer_method": null, 
+              "state": "released", 
+              "a260_a280_ratio": null
+            }, 
+            {
+              "amount": null, 
+              "aliquots": [
+                {
+                  "amount": null, 
+                  "aliquot_id": "e8417e27-1a53-49c2-8e0d-bd0f3ff8a1b5", 
+                  "source_center": "23", 
+                  "analyte_type": null, 
+                  "updated_datetime": "2018-11-27T09:46:29.784386-06:00", 
+                  "submitter_id": "TCGA-RS-A6TP-01A-12D-A34I-01", 
+                  "concentration": 0.14, 
+                  "state": "released", 
+                  "created_datetime": null, 
+                  "analyte_type_id": null
+                }, 
+                {
+                  "amount": null, 
+                  "aliquot_id": "a866e3eb-84ab-4a03-82a6-1bfef7869e49", 
+                  "source_center": "23", 
+                  "analyte_type": null, 
+                  "updated_datetime": "2018-11-27T09:46:29.784386-06:00", 
+                  "submitter_id": "TCGA-RS-A6TP-01A-12D-A34J-08", 
+                  "concentration": 0.07, 
+                  "state": "released", 
+                  "created_datetime": null, 
+                  "analyte_type_id": null
+                }, 
+                {
+                  "amount": null, 
+                  "aliquot_id": "6c6e1b4b-0e7c-41ff-8d78-925ba6bb6c11", 
+                  "source_center": "23", 
+                  "analyte_type": null, 
+                  "updated_datetime": "2018-11-27T09:46:29.784386-06:00", 
+                  "submitter_id": "TCGA-RS-A6TP-01A-12D-A34K-05", 
+                  "concentration": 0.14, 
+                  "state": "released", 
+                  "created_datetime": null, 
+                  "analyte_type_id": null
+                }
+              ], 
+              "submitter_id": "TCGA-RS-A6TP-01A-12D", 
+              "concentration": 0.14, 
+              "created_datetime": null, 
+              "analyte_type_id": "D", 
+              "analyte_id": "6431d3d6-3ae5-4d5f-8d9b-d8bc944abdbb", 
+              "analyte_type": "DNA", 
+              "well_number": null, 
+              "updated_datetime": "2018-09-06T20:07:42.373854-05:00", 
+              "spectrophotometer_method": "PicoGreen", 
+              "state": "released", 
+              "a260_a280_ratio": null
+            }, 
+            {
+              "amount": null, 
+              "aliquots": [
+                {
+                  "amount": null, 
+                  "aliquot_id": "acf05ba0-17f2-4952-a7e4-696c7a2219ee", 
+                  "source_center": "23", 
+                  "analyte_type": null, 
+                  "updated_datetime": "2018-11-27T09:46:29.784386-06:00", 
+                  "submitter_id": "TCGA-RS-A6TP-01A-12R-A34R-07", 
+                  "concentration": 0.17, 
+                  "state": "released", 
+                  "created_datetime": null, 
+                  "analyte_type_id": null
+                }, 
+                {
+                  "amount": null, 
+                  "aliquot_id": "7a6596d9-790b-4d30-87be-9392b9f1f78c", 
+                  "source_center": "23", 
+                  "analyte_type": null, 
+                  "updated_datetime": "2018-11-27T09:46:29.784386-06:00", 
+                  "submitter_id": "TCGA-RS-A6TP-01A-12R-A34O-13", 
+                  "concentration": 0.17, 
+                  "state": "released", 
+                  "created_datetime": null, 
+                  "analyte_type_id": null
+                }
+              ], 
+              "submitter_id": "TCGA-RS-A6TP-01A-12R", 
+              "concentration": 0.17, 
+              "created_datetime": null, 
+              "analyte_type_id": "R", 
+              "analyte_id": "a0bb6ae7-1313-4e01-ad2a-4ecc3c0227d1", 
+              "analyte_type": "RNA", 
+              "well_number": null, 
+              "updated_datetime": "2018-09-06T20:07:42.373854-05:00", 
+              "spectrophotometer_method": "UV Spec", 
+              "state": "released", 
+              "a260_a280_ratio": 1.92
+            }
+          ], 
+          "portion_id": "6ed8cafc-571e-4502-98e6-b1fa8eeb6257", 
+          "slides": [
+            {
+              "percent_stromal_cells": 20.0, 
+              "submitter_id": "TCGA-RS-A6TP-01A-01-TSA", 
+              "section_location": "TOP", 
+              "percent_tumor_cells": 75.0, 
+              "number_proliferating_cells": null, 
+              "slide_id": "fec3abb1-d0b8-4394-8c8a-70b3a32fbc3c", 
+              "percent_eosinophil_infiltration": null, 
+              "percent_inflam_infiltration": null, 
+              "created_datetime": null, 
+              "percent_neutrophil_infiltration": 3.0, 
+              "percent_lymphocyte_infiltration": 10.0, 
+              "percent_granulocyte_infiltration": null, 
+              "updated_datetime": "2018-09-06T20:07:42.373854-05:00", 
+              "percent_necrosis": 5.0, 
+              "percent_monocyte_infiltration": 2.0, 
+              "percent_normal_cells": 0.0, 
+              "state": "released", 
+              "percent_tumor_nuclei": 80.0
+            }
+          ], 
+          "updated_datetime": "2018-09-06T20:07:42.373854-05:00", 
+          "submitter_id": "TCGA-RS-A6TP-01A-12", 
+          "creation_datetime": 1374192000, 
+          "weight": 10.0, 
+          "state": "released", 
+          "portion_number": "12", 
+          "is_ffpe": false, 
+          "created_datetime": null
+        }, 
+        {
+          "portion_id": "fb2e275d-2206-46e7-99d3-9fd455f1884b", 
+          "updated_datetime": "2018-09-06T20:07:42.373854-05:00", 
+          "center": {
+            "code": "20", 
+            "center_id": "a35fab26-d715-5e48-9563-6cd6b189b989", 
+            "namespace": "mdanderson.org", 
+            "name": "MD Anderson - RPPA Core Facility (Proteomics)", 
+            "short_name": "MDA", 
+            "center_type": "CGCC"
+          }, 
+          "submitter_id": "TCGA-RS-A6TP-01A-21-A45M-20", 
+          "creation_datetime": 1406678400, 
+          "weight": null, 
+          "state": "released", 
+          "portion_number": "21", 
+          "is_ffpe": false, 
+          "created_datetime": null
+        }
+      ], 
+      "intermediate_dimension": null, 
+      "time_between_clamping_and_freezing": null, 
+      "freezing_method": null, 
+      "pathology_report_uuid": "F170BB49-FA71-4247-AFA7-F841A348B171", 
+      "submitter_id": "TCGA-RS-A6TP-01A", 
+      "tumor_code_id": null, 
+      "shortest_dimension": null, 
+      "oct_embedded": "true", 
+      "days_to_sample_procurement": null, 
+      "longest_dimension": null, 
+      "current_weight": null, 
+      "is_ffpe": false, 
+      "tissue_type": "Not Reported"
+    }
+  ]
+}]

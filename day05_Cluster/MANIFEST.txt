@@ -1,0 +1,3 @@
+id	filename	md5	size	state
+75d436b1-36db-470f-ae07-fec3b432336e	75d436b1-36db-470f-ae07-fec3b432336e/nationwidechildrens.org_clinical_drug_hnsc.txt	f9e948a972895b160274e541a4c73894	146066	validated
+\N	75d436b1-36db-470f-ae07-fec3b432336e/annotations.txt	108c610d50adced4910beebe02539cae	10629	\N
