@@ -14,7 +14,7 @@ cv2.imshow("im_mean_blur",im_mean_blur)
 
 
 #高斯滤波
-im_gaussian_blur = cv2.GaussianBlur(im,(7,7), 2.2) #原始图像，高斯滤波器大小，标准差
+im_gaussian_blur = cv2.GaussianBlur(im,(7,7), 0) #原始图像，高斯滤波器大小，标准差（当为0时标准差根据核尺寸自动计算，不太推荐）
 cv2.imshow("im_gaussian_blur",im_gaussian_blur)
 
 
